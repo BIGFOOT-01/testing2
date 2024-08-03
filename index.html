@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password reset</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="resetstylesheet.css" />
+    <link rel="stylesheet" href="reset.css" />
+  </head>
+  <body>
+    <main class="opening">
+      <div class="signup">
+        <h1>ARE YOU NEW HERE?</h1>
+        <p>
+          Sign up here with your details and let’s get you <br class="break" />
+          started
+        </p>
+        <button><a href="#">SIGN UP</a></button>
+      </div>
+      <div class="passreset">
+        <div class="headreset">
+          <div class="undo">
+            <button>
+              <a href="#"> <i class="bx bx-undo"></i></a>
+            </button>
+          </div>
+          <form id="reset" name="reset" action="" autocomplete="on">
+            <div class="wordreset"><h2>Password reset</h2></div>
+            <div class="instreset" id="instreset">
+              <p>Enter your email to reset your password</p>
+            </div>
+            <div class="E-mail">
+              <div class="icon"><i class="bx bxs-user"></i></div>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email"
+                required
+              />
+            </div>
+            <div class="subreset">
+              <button type="submit" id="submit" class="btn">Reset</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
