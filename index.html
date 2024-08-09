@@ -28,20 +28,27 @@
               <a href="#"> <i class="bx bx-undo"></i></a>
             </button>
           </div>
-          <form id="reset" name="reset" action="" autocomplete="on">
+          <form id="form" name="reset" action="" autocomplete="on">
             <div class="wordreset"><h2>Password reset</h2></div>
             <div class="instreset" id="instreset">
               <p>Enter your email to reset your password</p>
             </div>
             <div class="E-mail">
-              <div class="icon"><i class="bx bxs-user"></i></div>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                placeholder="Email"
-                required
-              />
+              <div class="ina-mail">
+                <div class="icon"><i class="bx bxs-user"></i></div>
+                <input
+                  type="text"
+                  id="email"
+                  name="email"
+                  placeholder="Email"
+                />
+              </div>
+              <div>
+                <span
+                  style="color: red; margin: 3px 0 0 28px"
+                  id="email_error"
+                ></span>
+              </div>
             </div>
             <div class="subreset">
               <button type="submit" id="submit" class="btn">Reset</button>
@@ -50,5 +57,6 @@
         </div>
       </div>
     </main>
+    <script src="reset.js"></script>
   </body>
 </html>
